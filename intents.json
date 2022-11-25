@@ -1,0 +1,245 @@
+
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "Hours of operation",
+     "patterns": ["timing of University", "what is University timing", "working days", "when are you guys open", "what are your hours", "hours of operation", "when is the University open", "University timings", "what about University timing", "is University open on saturday", "tell something about University timing", "what is the University  hours", "when should i come to University", "when should i attend University", "what is my University time", "University opens on", "At which timings University will be open?" ],
+     "responses": ["University of Memphis is open 8am-4:30pm Monday-Friday!"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m U of M chatbot, your bot assistant", "I'm U of M chatbot, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me U of M chatbot.", "I'm U of M chatbot!", "Just call me as U of M chatbot"]
+    },
+     
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "Explore UofM",
+    "patterns": ["How is the life in university of Memphis?", "Explore University of Memphis", "How is the academics in university of memphis?", "How is the experience in university of memphis?", "virtual tour of the campus", "academics in University of memphis"],
+    "responses": ["to view academics and explore UofM please visit: https://www.memphis.edu/academics/index.php"]
+    },
+    {"tag": "apply to UofM",
+    "patterns": ["application for university of memphis", "how to apply to university of memphis", "apply"],
+    "responses": ["apply to uofM: https://www.memphis.edu/admissions/apply/index.php"]
+    },
+    {"tag": "undergraduation admissions",
+    "patterns": ["application for undergraduation in university of memphis", "how to apply to undergraduate degree at university of memphis", "undergraduation applications", "application process for undergraduate degree"],
+    "responses": ["apply to uofM undergraduate degree: https://www.memphis.edu/admissions/apply/index.php"]
+    },
+     {"tag": "scholarships",
+    "patterns": ["application for university of memphis", "how to apply to university of memphis", "apply"],
+    "responses": ["scholarships: https://www.memphis.edu/admissions/apply/index.php"]
+    },
+     {"tag": "freashman application fee waiver",
+    "patterns": ["application fee waiver for freashman", "how to apply for application fee waiver", "freashers application fee waiver"],
+    "responses": ["application fee waiver: https://www.memphis.edu/admissions/apply/app_fee_waiver.php"]
+    },
+    {"tag": "Academic calendar",
+    "patterns": ["Can I get academic calendar?", "Can I know semester dates and deadlines?", "Can I know exam schedules?"],
+    "responses": ["to know more about academic calendars and dates and deadlines please visit: https://www.memphis.edu/registrar/calendars/index.php"]
+    },
+    {"tag": "commencement",
+    "patterns": ["Graduate commencement", "undergraduate commencement", "UG commencement", "Graduation deadlines", "apply to graduate", "where to apply for graduation?", "graduation", "UG graduation"],
+    "responses": ["to know more details about commencement and apply for graduation please visit: https://www.memphis.edu/commencement/apply/deadlines.php"]
+    },
+    {"tag": "Graduate catalog",
+    "patterns": ["Graduate catalog", "Catalog"],
+    "responses": ["to view graduate catalog please visit: https://catalog.memphis.edu/?catoid=27"]
+    },
+    {"tag": "readmission",
+    "patterns": ["readmission", "readmission process", "process to readmission"],
+    "responses": ["readmission: https://www.memphis.edu/graduateadmissions/readmit/index."]
+    },
+     {"tag": "degree programs",
+    "patterns": ["degree programs", "masters programs", "doctoral programs", "Explore programs"],
+    "responses": ["degree programs: https://www.memphis.edu/gradschool/programs/index.php"]
+    },
+    {"tag": "contact graduation analyst",
+    "patterns": ["I missed graduation deadline", "I missed to apply for graduation", "missed to apply for commencement"],
+    "responses": ["to contact graduation analyst please visit: https://www.memphis.edu/commencement/graduates/graduation-analyst.php"]
+    },
+    {"tag": "undergraduate catalog",
+    "patterns": ["undergraduate catalog", "Catalog"],
+    "responses": ["to view undergraduate catalog please visit: https://catalog.memphis.edu/?catoid=26"]
+    },
+    {"tag": "Admissions",
+    "patterns": ["undergraduate admissions", "Graduate admissions", "admissions", "highschool", "freashmen", "sophomore", "Transfer", "lawschool", "readmits", "lawschool", "non degree seeking", "application process"],
+    "responses": ["to view admissions info please visit: https://www.memphis.edu/admissions/index.php, https://www.memphis.edu/graduateadmissions/index.php"]
+    },
+    {"tag": "International admissions",
+    "patterns": ["International admissions", "International graduate admissions", "International undergraduate admissions", "highschool", "freashmen", "sophomore", "Transfer", "lawschool", "readmits", "lawschool", "non degree seeking", "application process"],
+    "responses": ["to view admissions info please visit: https://www.memphis.edu/admissions/basics/international.php"]
+    },
+    {"tag": "Academic calendar",
+    "patterns": ["academic calendar", "calendar", "academic year"],
+    "responses": ["Academic calendar: https://www.memphis.edu/registrar/calendars/index.php"]
+    },
+    {"tag": "Contact number",
+    "patterns": ["more info", "contact info", "how to contact university", "university telephone number", "university number", "What is your contact no", "Contact number?", "how to call you", "university phone no?", "how can i contact you", "Can i get your phone number", "how can i call you", "phone number", "phone no", "call"],
+    "responses": ["You can contact at +1(901) 678-2000 or Please view this link: https://www.memphis.edu/"]
+    },
+    {"tag": "Course",
+    "patterns": ["list of courses", "list of courses offered", "list of courses offered in Gradschool", "what are the courses offered in your University?", "courses?", "courses offered", "courses offered in Gradschool", "courses you offer", "courses available at Data Science?", "what are the courses in Data Science?", "can you tell me the courses available in Data Science?"],
+    "responses": ["For course details please view this link: https://catalog.memphis.edu/content.php?catoid=9&catoid=9&navoid=220&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D=67"]
+    },
+     {"tag": "Libraries",
+    "patterns": ["university libraries", "research resources", "ask a librarien", "more info about university library", "university library", "library"],
+    "responses": ["University Libraries: https://www.memphis.edu/libraries/index.php"]
+    },
+    {"tag": "News and events",
+    "patterns": ["News and events", "Latest news", "University news", "events", "university events"],
+    "responses": ["News and events: https://memphis.campuslabs.com/engage/events, https://www.memphis.edu/calendar/, https://www.memphis.edu/mediaroom/index.php"]
+    },
+    {"tag": "Fees",
+    "patterns": ["information about fee", "information on fee", "tell me the fee", "University fee", "fee per semester", "what is the fee of each semester", "what is the fees of each year", "what is fee", "what is the fees", "how much is the fees", "fees for first year", "fees", "about the fees", "tell me something about the fees"],
+    "responses": ["For Fee details visit: https://www.memphis.edu/usbs/fees/index.php"]
+    },
+    {"tag": "Location",
+    "patterns": [ "where is the University located", "University is located at", "where is University", "where is University located", "address of University", "how to reach University", "University location", "University address", "wheres the University", "how can I reach University", "whats is the University address", "what is the address of University", "address", "location"],
+    "responses": ["3720 Alumni Ave, Memphis, TN 38152"]
+    },
+    {"tag": "University Residence",
+    "patterns": ["University residence", "oncampus residence", "oncampus residence location", "oncampus residence address", "oncampus residence facilities", "oncampus residence fees", "Is there any oncampus residence", "Where is oncampus residence", "Residency life", "Housing"],
+    "responses": ["University of emphis housing and residence life: https://www.memphis.edu/reslife/"]
+    },
+    {"tag": "Canvas",
+    "patterns": ["online classes platform", "learning management system", "courses online", "submit assignments", "online classes", "Courses", "Assignments", "Canvas", "login to account", "login to canvas", "student account"],
+    "responses": ["Canvas: https://memphis.instructure.com/"]
+    },
+     {"tag": "Faculty and staff",
+    "patterns": ["Faculty", "staff", "professors", "datascience faculty", "information systems faculty", "engineering faculty", "computer science faculty", "U of M faculty and staff", "Human resources faculty"],
+    "responses": ["University of Memphis faculty and staff: https://www.memphis.edu/fac_staff/"]
+    },
+    {"tag": "Alumni",
+    "patterns": ["alumni", "connect with alumni"],
+    "responses": ["Alumni: https://alumni.memphis.edu/s/1728/c20/home.aspx?gid=2&pgid=61"]
+    },
+    {"tag":  "vetarians",
+    "patterns": ["vetarians", "military", "military student services", "resources"],
+    "responses": ["vetarians: https://www.memphis.edu/veterans/index.php"]
+    },
+    {"tag":  "Current students",
+    "patterns": ["current students", "student life", "academic support", "wellness"],
+    "responses": ["Current students: https://www.memphis.edu/students/index.php"]
+    },
+    {"tag": "Graduate Certificate Programs",
+    "patterns": ["How to know Graduate Certificate Programs?", "Graduate Certificate Programs", "where to find Graduate Certificate Programs?", "find Graduate Certificate Programs", "check Graduate Certificate Programs", "more info on Graduate Certificate Programs", "view Graduate Certificate Programs"],
+    "responses": ["please visit Graduate Certificate Programs: https://www.memphis.edu/gradschool/programs/graduatecertificates.php"]
+    },
+    {"tag": "Combination Senior Program Guide",
+    "patterns": ["Combination Senior Program Guide", "Eligibility for Combination Senior Program", "Combination Senior Status"],
+    "responses": ["please visit: https://www.memphis.edu/gradschool/programs/combination.php"]
+    },
+    {"tag": "Graduate Non-Degree Status",
+    "patterns": ["Graduate Non-Degree Status", "know about Graduate Non-Degree Status", "find Graduate Non-Degree Status"],
+    "responses": ["please visit: https://www.memphis.edu/gradschool/programs/nondegree.php"]
+    },
+    {"tag": "Nationally Ranked Graduate Programs",
+    "patterns": ["Nationally Ranked Graduate Programs", "know about Nationally Ranked Graduate Programs", "find Nationally Ranked Graduate Programs", "what are the national ranks for graduate programs", "national ranking"],
+    "responses": ["please visit: https://www.memphis.edu/gradschool/programs/ranked_programs.php"]
+    },
+    {"tag": "Transcripts",
+    "patterns": ["How to apply for transcripts", "transcripts", "where to apply for transcripts?", "official transcripts"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/records/transcript-official.php"]
+    },
+    {"tag": "Holds",
+    "patterns": ["How to clear holds", "holds", "more about holds?", "academic holds", "view holds", "types of holds"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/selfserv/holds.php"]
+    },
+    {"tag": "ABM procedures",
+    "patterns": ["ABM procedures", "master's procedures", "more about ABM procedures?", "eligibility for ABM programs", "view ABM procedures", "qualifications for acceptance into ABM programs"],
+    "responses": ["please visit: https://www.memphis.edu/gradschool/programs/abm_procedures.php"]
+    },
+    {"tag": "Grades",
+    "patterns": ["Grades", "where are grades available?", "more about Grades?", " Grade report", "view  Grades", "term  Grade report", " Grade changes", "official grades", "unofficial grades", "calculate GPA", "GPA calculator", "grade calculator"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/records/grades.php"]
+    },
+    {"tag": "withdraw",
+    "patterns": ["How to withdraw from uofm", "withdraw", "withdrawing from uofm?", "withdrawal deadlines", "withdrawing after drop", "dropping from classes"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/records/withdraw.php"]
+    },
+    {"tag": "Reverse transfer",
+    "patterns": ["How to apply for Reverse transfer", "Reverse transfer", "where to apply for Reverse transfer?", "Reverse transfer eligibility"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/records/reverse-transfer.php"]
+    },
+    {"tag": "self service guide",
+    "patterns": ["students self service guide", "self service guide", "what is self service guide?", "where to get student records?","student records", "student registration"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/selfserv/student-service-help.php"]
+    },
+    {"tag": "Registration",
+    "patterns": ["How to register for classes?", "classes registration", "where to apply for classes registration?", "how to know registration status","registration status", "Add or drop classes", "more info on course registration"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/selfserv/quick.php"]
+    },
+    {"tag": "student schedule",
+    "patterns": ["How to know my schedule?", "classes schedule", "where to find student schedule?", "find student schedule","student schedule", "view student schedule", "more info on student schedule"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/selfserv/quick.php"]
+    },
+    {"tag": "academic advisor",
+    "patterns": ["How to know my academic advisor?", "academic advisor", "where to find academic advisor?", "find academic advisor","who is my academic advisor?", "advisor", "more info on academic advisor"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/selfserv/advisor.php"]
+    },
+    {"tag": "attendance",
+    "patterns": ["How to know my attendance?", "attendance", "where to find class attendance?", "find attendance","class attendance", "check attendance status", "more info on attendance", "attendance status"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/selfserv/attendance.php"]
+    },
+    {"tag": "University ID",
+    "patterns": ["How to know my University ID?", "University ID", "where to find University ID?", "find University ID","UID", "check my University ID", "more info on University ID", "view University ID", "Student ID", "Student University ID", "Student UID"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/selfserv/unumber.php"]
+    },
+    {"tag": "personal data",
+    "patterns": ["How to know my personal data?", "personal data", "where to find my personal data?", "find my personal data","student profile", "check my personal data", "more info on my personal data", "view my personal data", "change my personal data", "Student personal data", "update Student personal data", "update student information", "update student address", "update student name", "change student dob", "I want update my information", "I want to update my date of birth", "want to update age","update dofb","change age", "change name"],
+    "responses": ["please visit: https://www.memphis.edu/registrar/students/records/personal-data.php"]
+    },
+    {"tag":  "Mymemphis",
+    "patterns": ["Mymemphis", "student account", "pay fee", "student pages", "student finances", "student resources", "student degree"],
+    "responses": ["student account: https://myuofm.memphis.edu/"]
+    },
+    {"tag":  "center for athletic academic services",
+    "patterns": ["center for athletic academic services", "athletic academic services", "academic services"],
+    "responses": ["CAAS: https://www.memphis.edu/caas/index.php"]
+    },
+    {"tag":  "CAAS Staff",
+    "patterns": ["CAAS Staff", "center for athletic academic services staff", "center for athletic academic services professors", "CAAS professors"],
+    "responses": ["CAAS Staff: https://www.memphis.edu/caas/staff/index.php"]
+    },
+    {"tag":  "CAAS services",
+    "patterns": ["CAAS services", "center for athletic academic services services"],
+    "responses": ["CAAS services: https://www.memphis.edu/caas/services.php"]
+    },
+    {"tag":  "CECIL C. HUMPHREYS SCHOOL OF LAW",
+    "patterns": ["CECIL C. HUMPHREYS SCHOOL OF LAW", "law school", "law school news", "know about law school"],
+    "responses": ["CECIL C. HUMPHREYS SCHOOL OF LAW: https://www.memphis.edu/law/index.php"]
+    },
+    {"tag":  "law admissions",
+    "patterns": ["law admissions", "law school", "law school news", "know about law school"],
+    "responses": ["law admissions: https://www.memphis.edu/law/index.php"]
+    },
+    {"tag":  "center for athletic academic services",
+    "patterns": ["center for athletic academic services", "athletic academic services", "academic services"],
+    "responses": ["CAAS: https://www.memphis.edu/caas/index.php"]
+    },
+    {"tag": "admission deadlines",
+    "patterns": ["Admission application deadline for undergraduate student", "Admission application deadline for graduate student", "Graduate admissions", "undergraduate admissions", "application timeframe", "Application deadline", "international applications", "domestic applications"],
+    "responses": ["please visit: https://www.memphis.edu/admissions/basics/deadlines.php"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    }
+]
+}
